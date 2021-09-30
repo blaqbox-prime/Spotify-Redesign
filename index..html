@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/33a331435f.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spotify | Designed by Nicholas Ergemia</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="columns">
+          <div class="col-1">
+            <div class="header__branding">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23.9999 0C10.7454 0 0 10.7451 0 23.9996C0 37.2555 10.7454 48 23.9999 48C37.2549 48 48 37.2555 48 23.9996C48 10.7451 37.2549 0 23.9999 0Z"
+                  fill="transparent"
+                />
+                <path
+                  d="M34.479 34.0945C34.0542 34.7911 33.1472 35.0093 32.4531 34.5848C26.9023 31.1922 19.9156 30.4261 11.6874 32.3055C10.8945 32.4872 10.1041 31.9904 9.92348 31.1978C9.7417 30.4049 10.2368 29.6146 11.0314 29.4336C20.0358 27.3753 27.7595 28.2611 33.9901 32.0683C34.6848 32.4926 34.9035 33.4001 34.479 34.0945Z"
+                  fill="#1ED760"
+                />
+                <path
+                  d="M37.3714 27.658C36.8368 28.5254 35.7026 28.7975 34.8363 28.2649C28.4841 24.3602 18.7972 23.2289 11.2818 25.5102C10.3074 25.8046 9.27793 25.2553 8.98183 24.2823C8.68827 23.3079 9.23785 22.2804 10.2108 21.9841C18.7961 19.3787 29.469 20.6405 36.7651 25.1243C37.6314 25.6578 37.9041 26.7925 37.3714 27.658Z"
+                  fill="#1ED760"
+                />
+                <path
+                  d="M37.6209 20.9557C30.0013 16.4306 17.433 16.0145 10.1592 18.2222C8.99085 18.5767 7.75564 17.9173 7.40196 16.7493C7.04799 15.5804 7.70653 14.346 8.87541 13.991C17.2255 11.4565 31.1059 11.9459 39.8777 17.1529C40.9286 17.7768 41.2729 19.1336 40.6502 20.1825C40.027 21.2332 38.669 21.5795 37.6209 20.9557Z"
+                  fill="#1ED760"
+                />
+              </svg>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-20">
+            <div class="header__search">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="circleIcon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-circle"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+              </svg>
+              <input
+                type="search"
+                name="search"
+                id="searchbox"
+                placeholder="Search..."
+              />
+              <div class="header__tags">
+                <p class="header__tag">Minimal</p>
+                <p class="header__tag">House</p>
+                <p class="header__tag">Minimal</p>
+              </div>
+              <div class="vertical-divider"></div>
+              <div class="header__filter">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="filter-icon icon"
+                  width="48"
+                  height="36"
+                  viewBox="0 0 48 36"
+                >
+                  <g>
+                    <path
+                      class="icon active"
+                      d="M45.5,5.5H24.6a8,8,0,0,0-15.2,0H2.5a2.5,2.5,0,0,0,0,5H9.4a8,8,0,0,0,15.2,0H45.5a2.5,2.5,0,0,0,0-5Z"
+                    />
+                    <path
+                      class="icon active"
+                      d="M45.5,25.5H38.6a8,8,0,0,0-15.2,0H2.5a2.5,2.5,0,0,0,0,5H23.4a8,8,0,0,0,15.2,0h6.9a2.5,2.5,0,0,0,0-5Z"
+                    />
+                  </g>
+                </svg>
+
+                <p>Filters</p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-5 col-split">
+            <ul class="header__actions">
+              <li>
+                <svg
+                  class="icon"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 187 187"
+                  style="enable-background: new 0 0 187 187"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M167,43.2c-0.1-4.5-3.2-5.8-7.2-5.8c-20.7-0.3-39.2-6.4-54.5-20.9c-2.9-2.7-5.9-2.7-8.7,0C81.3,31,62.8,37.1,42,37.3
+               c-5.3,0.1-7.3,2.8-7.3,7.8c0.1,7.2,0,14.4,0,21.6c-0.2,0-0.4,0-0.6,0c0.4,7.8,0.7,15.6,1.3,23.4c3.1,39.9,23,67.2,60.8,81.1
+               c2.3,0.8,4.5,1.9,7.1,0.9c28.1-10.3,49.5-27.4,58.3-57.2C168.8,91.4,167.7,67.3,167,43.2z"
+                  />
+                  <path
+                    fill="#1a1b19"
+                    d="M118.3,76c-7.1,7.2-14.5,14.1-21.3,21.5c-3.1,3.3-4.9,3-7.5-0.2c-2.3-2.8-5.2-5.3-7.9-7.8
+               c-1.9-1.7-4.2-1.8-6.3-0.6c-1.6,0.9-2.7,2.5-2.7,4.6c0,3.4,17.3,20.9,20.7,20.9c2.5-0.1,4.1-1.7,5.7-3.3c9-9,18-18.1,27.1-27.1
+               c2.8-2.8,5.2-5.9,1.7-9.5C124.2,70.8,121.1,73.2,118.3,76z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg
+                  class="icon"
+                  enable-background="new 0 0 32 32"
+                  id="Glyph"
+                  version="1.1"
+                  viewBox="0 0 32 32"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <path
+                    d="M27.526,18.036L27,17.732c-0.626-0.361-1-1.009-1-1.732s0.374-1.371,1-1.732l0.526-0.304  c1.436-0.83,1.927-2.662,1.098-4.098l-1-1.732c-0.827-1.433-2.666-1.925-4.098-1.098L23,7.339c-0.626,0.362-1.375,0.362-2,0  c-0.626-0.362-1-1.009-1-1.732V5c0-1.654-1.346-3-3-3h-2c-1.654,0-3,1.346-3,3v0.608c0,0.723-0.374,1.37-1,1.732  c-0.626,0.361-1.374,0.362-2,0L8.474,7.036C7.042,6.209,5.203,6.701,4.375,8.134l-1,1.732c-0.829,1.436-0.338,3.269,1.098,4.098  L5,14.268C5.626,14.629,6,15.277,6,16s-0.374,1.371-1,1.732l-0.526,0.304c-1.436,0.829-1.927,2.662-1.098,4.098l1,1.732  c0.828,1.433,2.667,1.925,4.098,1.098L9,24.661c0.626-0.363,1.374-0.361,2,0c0.626,0.362,1,1.009,1,1.732V27c0,1.654,1.346,3,3,3h2  c1.654,0,3-1.346,3-3v-0.608c0-0.723,0.374-1.37,1-1.732c0.625-0.361,1.374-0.362,2,0l0.526,0.304  c1.432,0.826,3.271,0.334,4.098-1.098l1-1.732C29.453,20.698,28.962,18.865,27.526,18.036z M16,21c-2.757,0-5-2.243-5-5s2.243-5,5-5  s5,2.243,5,5S18.757,21,16,21z"
+                    id="XMLID_273_"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg
+                  class="icon"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+                  <title>@1xIconly/Bold/Notification</title>
+                  <desc>Created with Sketch.</desc>
+                  <g
+                    id="Iconly/Bold/Notification"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Notification-icon"
+                      transform="translate(3.500000, 2.000000)"
+                      class="icon active"
+                    >
+                      <path
+                        d="M9.66385809,17.0850308 C10.1612052,17.0997055 10.6494874,17.2209963 11.0952733,17.4405986 L11.0952733,17.4405986 L11.1221123,17.4405986 C11.4945539,17.7444568 11.5578428,18.2868367 11.2652539,18.6673073 C10.7325,19.4297129 9.88007929,19.9104286 8.94815048,19.9740188 C7.99068936,20.0881969 7.02648958,19.8231391 6.26424693,19.2362157 C5.87223416,18.9673952 5.61748007,18.5422722 5.56643201,18.0717313 C5.56643201,17.5739365 6.03164196,17.3428174 6.46106652,17.2450363 C6.96403775,17.1390934 7.47674317,17.0854692 7.99089154,17.0850308 L7.99089154,17.0850308 Z M8.5366186,-1.59872116e-14 C11.632054,-1.59872116e-14 14.8258992,2.24007688 15.156914,5.48463268 C15.2105921,6.15132223 15.156914,6.84467936 15.2105921,7.5202581 C15.3862376,8.39147523 15.7905529,9.20107362 16.3825633,9.86700531 C16.7506233,10.4142844 16.9638305,11.04982 16.9999314,11.7070685 L16.9999314,11.7070685 L16.9999314,11.9115199 C17.0053658,12.7983874 16.6875755,13.6572551 16.1052266,14.3293807 C15.3671354,15.1185689 14.3656784,15.6145192 13.2871279,15.7249841 C10.1005486,16.1338607 6.87427876,16.1338607 3.68769953,15.7249841 C2.59644926,15.6229087 1.58089806,15.1262849 0.833815425,14.3293807 C0.269727524,13.6508093 -0.0260731338,12.7911986 0.00180532602,11.9115199 L0.00180532602,11.7070685 C0.0367179505,11.0522761 0.243355163,10.417938 0.601210451,9.86700531 C1.19585108,9.20045914 1.60588236,8.3917618 1.79107436,7.5202581 C1.84475243,6.84467936 1.79107436,6.16021142 1.84475243,5.48463268 C2.18471354,2.24007688 5.31593434,-1.59872116e-14 8.44715515,-1.59872116e-14 L8.44715515,-1.59872116e-14 Z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+                <div class="notification-indicator"></div>
+              </li>
+            </ul>
+            <div class="header__user">
+              <svg
+                class="icon"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="292.362px"
+                height="292.362px"
+                viewBox="0 0 292.362 292.362"
+                style="enable-background: new 0 0 292.362 292.362"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M286.935,69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952,0-9.233,1.807-12.85,5.424
+		C1.807,72.998,0,77.279,0,82.228c0,4.948,1.807,9.229,5.424,12.847l127.907,127.907c3.621,3.617,7.902,5.428,12.85,5.428
+		s9.233-1.811,12.847-5.428L286.935,95.074c3.613-3.617,5.427-7.898,5.427-12.847C292.362,77.279,290.548,72.998,286.935,69.377z"
+                  />
+                </g>
+              </svg>
+              <img
+                src="https://randomuser.me/api/portraits/women/66.jpg"
+                alt="user_avatar"
+                class="avatar"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Of Header -->
+      <div class="columns mt-2">
+        <!-- Navigation -->
+        <nav id="nav" class="col-1">
+          <ul class="nav__links">
+            <li>
+              <svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>Home</title>
+                <desc>
+                  Music feed based on what you like and listen to often
+                </desc>
+                <g
+                  id="Home"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Home"
+                    transform="translate(2.500000, 2.000000)"
+                    fill="#200E32"
+                    fill-rule="nonzero"
+                    class="icon active"
+                  >
+                    <path
+                      d="M6.63477851,18.7733424 L6.63477851,15.7156161 C6.63477851,14.9350667 7.27217143,14.3023065 8.05843544,14.3023065 L10.9326107,14.3023065 C11.310188,14.3023065 11.6723007,14.4512083 11.9392882,14.7162553 C12.2062757,14.9813022 12.3562677,15.3407831 12.3562677,15.7156161 L12.3562677,18.7733424 C12.3538816,19.0978491 12.4820659,19.4098788 12.7123708,19.6401787 C12.9426757,19.8704786 13.2560494,20 13.5829406,20 L15.5438266,20 C16.4596364,20.0023499 17.3387522,19.6428442 17.9871692,19.0008077 C18.6355861,18.3587712 19,17.4869804 19,16.5778238 L19,7.86685918 C19,7.13246047 18.6720694,6.43584231 18.1046183,5.96466895 L11.4340245,0.675869015 C10.2736604,-0.251438297 8.61111277,-0.221497907 7.48539114,0.74697893 L0.967012253,5.96466895 C0.37274068,6.42195254 0.0175522924,7.12063643 0,7.86685918 L0,16.568935 C0,18.4638535 1.54738155,20 3.45617342,20 L5.37229029,20 C6.05122667,20 6.60299723,19.4562152 6.60791706,18.7822311 L6.63477851,18.7733424 Z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+                <title>Discover</title>
+                <desc>Discover new music</desc>
+                <g
+                  id="Discover"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Discovery"
+                    transform="translate(2.000000, 2.000000)"
+                    fill="#200E32"
+                    fill-rule="nonzero"
+                    class="icon"
+                  >
+                    <path
+                      d="M4.4495,1.6781 C8.4095,-0.9619 13.6885,-0.4409 17.0695,2.9181 C18.9585,4.8091 20.0085,7.3681 19.9985708,10.0381 C19.9795,14.7981 16.5985,18.8881 11.9285,19.8091 C7.2485,20.7291 2.5695,18.2181 0.7585,13.8091 C-1.0615,9.4081 0.4795,4.3281 4.4495,1.6781 Z M13.4985,6.2481 C13.3695,6.1881 13.2185,6.1681 13.0795,6.2181 L13.0795,6.2181 L8.1385,7.7781 C7.9685,7.8281 7.8385,7.9681 7.7895,8.1381 L7.7895,8.1381 L6.2185,13.0781 C6.1885,13.1781 6.1885,13.2881 6.2185,13.3881 C6.2585,13.5281 6.3595,13.6481 6.4895,13.7181 C6.6285,13.7981 6.7795,13.8091 6.9185,13.7681 L6.9185,13.7681 L11.8595,12.2081 C12.0295,12.1581 12.1595,12.0281 12.2185,11.8581 L12.2185,11.8581 L13.7685,6.9181 C13.8095,6.8091 13.8095,6.6881 13.7685,6.5781 C13.7295,6.4381 13.6285,6.3181 13.4985,6.2481 Z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="25px"
+                height="25px"
+                viewBox="0 0 14 19"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+            
+                <g
+                  id="Icons"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Rounded"
+                    transform="translate(-377.000000, -952.000000)"
+                  >
+                    <g id="AV" transform="translate(100.000000, 852.000000)">
+                      <g
+                        id="-Round-/-AV-/-mic"
+                        transform="translate(272.000000, 98.000000)"
+                      >
+                        <g>
+                          <rect x="0" y="0" width="25" height="30"></rect>
+                          <path
+                            class="icon"
+                            d="M12,14 C13.66,14 15,12.66 15,11 L15,5 C15,3.34 13.66,2 12,2 C10.34,2 9,3.34 9,5 L9,11 C9,12.66 10.34,14 12,14 Z M17.91,11 C17.42,11 17.01,11.36 16.93,11.85 C16.52,14.2 14.47,16 12,16 C9.53,16 7.48,14.2 7.07,11.85 C6.99,11.36 6.58,11 6.09,11 C5.48,11 5,11.54 5.09,12.14 C5.58,15.14 7.98,17.49 11,17.92 L11,20 C11,20.55 11.45,21 12,21 C12.55,21 13,20.55 13,20 L13,17.92 C16.02,17.49 18.42,15.14 18.91,12.14 C19.01,11.54 18.52,11 17.91,11 Z"
+                            fill="#1D1D1D"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                class="icon"
+                width="25px"
+                height="25px"
+                viewBox="0 0 24 24"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+                <title>@1xIconly/Bold/Activity</title>
+                <desc>Created with Sketch.</desc>
+                <g
+                  id="Iconly/Bold/Activity"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Activity"
+                    transform="translate(1.999700, 2.000000)"
+                    class="icon"
+                    fill-rule="nonzero"
+                  >
+                    <path
+                      d="M13.45,1.7803 C13.41,2.0303 13.39,2.2803 13.39,2.5303 C13.39,4.7803 15.21,6.5993 17.45,6.5993 C17.7,6.5993 17.94,6.5703 18.19,6.5303 L18.19,6.5303 L18.19,14.5993 C18.19,17.9903 16.19,20.0003 12.79,20.0003 L12.79,20.0003 L5.401,20.0003 C2,20.0003 1.77635684e-15,17.9903 1.77635684e-15,14.5993 L1.77635684e-15,14.5993 L1.77635684e-15,7.2003 C1.77635684e-15,3.8003 2,1.7803 5.401,1.7803 L5.401,1.7803 Z M13.651,7.8603 C13.38,7.8303 13.111,7.9503 12.95,8.1703 L12.95,8.1703 L10.531,11.3003 L7.76,9.1203 C7.59,8.9903 7.39,8.9393 7.19,8.9603 C6.991,8.9903 6.811,9.0993 6.69,9.2593 L6.69,9.2593 L3.731,13.1103 L3.67,13.2003 C3.5,13.5193 3.58,13.9293 3.88,14.1503 C4.02,14.2403 4.17,14.3003 4.34,14.3003 C4.571,14.3103 4.79,14.1893 4.93,14.0003 L4.93,14.0003 L7.44,10.7693 L10.29,12.9103 L10.38,12.9693 C10.7,13.1393 11.1,13.0603 11.33,12.7593 L11.33,12.7593 L14.22,9.0303 L14.18,9.0503 C14.34,8.8303 14.37,8.5503 14.26,8.3003 C14.151,8.0503 13.91,7.8803 13.651,7.8603 Z M17.5901,1.77635684e-15 C18.9201,1.77635684e-15 20.0001,1.08 20.0001,2.41 C20.0001,3.74 18.9201,4.82 17.5901,4.82 C16.2601,4.82 15.1801,3.74 15.1801,2.41 C15.1801,1.08 16.2601,1.77635684e-15 17.5901,1.77635684e-15 Z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg
+                id="Layer_1"
+                data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 25 25"
+                class="icon"
+              >
+                <title>Clock</title>
+                <path
+                  class="icon"
+                  id="Clock"
+                  d="M12.5,0A12.5,12.5,0,1,0,25,12.5,12.51,12.51,0,0,0,12.5,0Zm2.82,17.48-4-3.75A1,1,0,0,1,11,13V7h2v5.57L16.68,16Z"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                class="icon"
+                version="1.1"
+                id="Layer_1_1_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 16 16"
+              >
+                <circle cx="2" cy="8" r="2" class="icon" />
+                <circle cx="8" cy="8" r="2" class="icon" />
+                <circle cx="14" cy="8" r="2" class="icon" />
+              </svg>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Of Navigation -->
+        <main class="col-20">
+          <div class="playlists">
+            <div class="">
+              <div class="playlists__playlist bg-purple">
+                <p class="playlist__trackCount">28 Tracks</p>
+                <div class="playlist__img" id="playlist-img-1" style="background-image: url('images/model-purple.png')">
+                  <div class="playlist__img-fader-purple"></div>
+                  </div>
+                <div class="playlist__details">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="35"
+                    height="35"
+                    viewBox="0 0 48 48"
+                  >
+                    <circle
+                      class="play__triangle"
+                      fill="#fff"
+                      cx="24"
+                      cy="24.8"
+                      r="11.8"
+                    />
+                    <path
+                      class="playIcon"
+                      d="M24,0A24,24,0,1,0,48,24,24,24,0,0,0,24,0Zm7.84,25.32-9.7,7.27a1.65,1.65,0,0,1-2.64-1.32V16.73a1.65,1.65,0,0,1,2.64-1.32l9.7,7.27A1.65,1.65,0,0,1,31.84,25.32Z"
+                    />
+                  </svg>
+                  <div class="col">
+                    <h3 class="playlist__title">Release Radar</h3>
+                    <h4 class="playlist__subtitle">Updates every friday</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="playlists__playlist bg-blue">
+                <p class="playlist__trackCount">12 Tracks</p>
+                <div class="playlist__img" id="playlist-img-2" style="background-image: url('images/model-blue.png')">
+                  <div class="playlist__img-fader-blue"></div>
+                  </div>                <div class="playlist__details">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="35"
+                    height="35"
+                    viewBox="0 0 48 48"
+                  >
+                    <g id="Layer_2">
+                      <circle
+                        class="play__triangle"
+                        fill="#fff"
+                        cx="24"
+                        cy="24.8"
+                        r="11.8"
+                      />
+                    </g>
+                    <path
+                      class="playIcon"
+                      d="M24,0A24,24,0,1,0,48,24,24,24,0,0,0,24,0Zm7.84,25.32-9.7,7.27a1.65,1.65,0,0,1-2.64-1.32V16.73a1.65,1.65,0,0,1,2.64-1.32l9.7,7.27A1.65,1.65,0,0,1,31.84,25.32Z"
+                    />
+                  </svg>
+                  <div class="col">
+                    <h3 class="playlist__title">Daily Mix</h3>
+                    <h4 class="playlist__subtitle">
+                      Coldplay, PK, Ash, Mobdeep
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="playlists__playlist bg-orange">
+                <p class="playlist__trackCount">289 Tracks</p>
+                <div class="playlist__img" id="playlist-img-3" style="background-image: url('images/model-yellow.png')">
+                <div class="playlist__img-fader-orange"></div>
+                </div>
+                <div class="playlist__details">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="35"
+                    height="35"
+                    viewBox="0 0 48 48"
+                  >
+                    <circle
+                      class="play__triangle"
+                      fill="#fff"
+                      cx="24"
+                      cy="24.8"
+                      r="11.8"
+                    />
+                    <path
+                      class="playIcon"
+                      d="M24,0A24,24,0,1,0,48,24,24,24,0,0,0,24,0Zm7.84,25.32-9.7,7.27a1.65,1.65,0,0,1-2.64-1.32V16.73a1.65,1.65,0,0,1,2.64-1.32l9.7,7.27A1.65,1.65,0,0,1,31.84,25.32Z"
+                    />
+                  </svg>
+                  <div class="col">
+                    <h3 class="playlist__title">Liked Songs</h3>
+                    <h4 class="playlist__subtitle">Your favorite tracks</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="playlists__playlist bg-darkorange">
+                <p class="playlist__trackCount">55.4k Followers</p>
+                <div class="playlist__img" id="playlist-img-4" style="background-image: url('images/model-orange.png')">
+                  <div class="playlist__img-fader-darkOrange"></div>
+                  </div>
+                <div class="playlist__details">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="35"
+                    height="35"
+                    viewBox="0 0 48 48"
+                  >
+                    <circle
+                      class="play__triangle"
+                      fill="#fff"
+                      cx="24"
+                      cy="24.8"
+                      r="11.8"
+                    />
+                    <path
+                      class="playIcon"
+                      d="M24,0A24,24,0,1,0,48,24,24,24,0,0,0,24,0Zm7.84,25.32-9.7,7.27a1.65,1.65,0,0,1-2.64-1.32V16.73a1.65,1.65,0,0,1,2.64-1.32l9.7,7.27A1.65,1.65,0,0,1,31.84,25.32Z"
+                    />
+                  </svg>
+                  <div class="col">
+                    <h3 class="playlist__title">Lowkey Tech</h3>
+                    <h4 class="playlist__subtitle">Chill techno & minimal</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="mt-2 main-content-wrapper">
+            <div class="genres col-5">
+              <h1>Genres</h1>
+              <div class="genrelist">
+                <p class="genre">Classic</p>
+                <p class="genre">House</p>
+                <p class="genre">Minimal</p>
+                <p class="genre">Hip-hop</p>
+                <p class="genre">Electronic</p>
+                <p class="genre">Chillout</p>
+                <p class="genre">Bues</p>
+                <p class="genre">Country</p>
+                <p class="genre">Techno</p>
+                <p class="genre">Rock</p>
+                
+              </div>
+              <!--  -->
+              <button class="btn-filled">All Genres</button>
+              <!--  -->
+            </div>
+            <div class="currentPlaylist">
+              <h1>Tracks of the Week</h1>
+              <div class="currentPlaylist__tracklist">
+                <div class="track">
+                  <div class="track__details">
+                    <img
+                      src="https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWxidW0lMjBhcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                      class="album-art"
+                    />
+                    <div class="col">
+                      <h4 class="track__artist">Jan Blomqvist</h4>
+                      <p class="track__name">The Space In Between</p>
+                    </div>
+                    <p class="track__listens">
+                      <span><i class="fas fa-headphones-alt"></i></span>
+                      274k
+                    </p>
+                  </div>
+                  <div class="track__actions col-2">
+                    <svg
+                      class="track__heartIcon"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g
+                        id="Iconly/Bold/Heart"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          class="icon"
+                          transform="translate(1.999783, 2.500540)"
+                          fill="#200E32"
+                          fill-rule="nonzero"
+                        >
+                          <path
+                            d="M6.28001656,3.46389584e-14 C6.91001656,0.0191596721 7.52001656,0.129159672 8.11101656,0.330159672 L8.11101656,0.330159672 L8.17001656,0.330159672 C8.21001656,0.349159672 8.24001656,0.370159672 8.26001656,0.389159672 C8.48101656,0.460159672 8.69001656,0.540159672 8.89001656,0.650159672 L8.89001656,0.650159672 L9.27001656,0.820159672 C9.42001656,0.900159672 9.60001656,1.04915967 9.70001656,1.11015967 C9.80001656,1.16915967 9.91001656,1.23015967 10.0000166,1.29915967 C11.1110166,0.450159672 12.4600166,-0.00984032788 13.8500166,3.46389584e-14 C14.4810166,3.46389584e-14 15.1110166,0.0891596721 15.7100166,0.290159672 C19.4010166,1.49015967 20.7310166,5.54015967 19.6200166,9.08015967 C18.9900166,10.8891597 17.9600166,12.5401597 16.6110166,13.8891597 C14.6800166,15.7591597 12.5610166,17.4191597 10.2800166,18.8491597 L10.2800166,18.8491597 L10.0300166,19.0001597 L9.77001656,18.8391597 C7.48101656,17.4191597 5.35001656,15.7591597 3.40101656,13.8791597 C2.06101656,12.5301597 1.03001656,10.8891597 0.390016562,9.08015967 C-0.739983438,5.54015967 0.590016562,1.49015967 4.32101656,0.269159672 C4.61101656,0.169159672 4.91001656,0.0991596721 5.21001656,0.0601596721 L5.21001656,0.0601596721 L5.33001656,0.0601596721 C5.61101656,0.0191596721 5.89001656,3.46389584e-14 6.17001656,3.46389584e-14 L6.17001656,3.46389584e-14 Z M15.1900166,3.16015967 C14.7800166,3.01915967 14.3300166,3.24015967 14.1800166,3.66015967 C14.0400166,4.08015967 14.2600166,4.54015967 14.6800166,4.68915967 C15.3210166,4.92915967 15.7500166,5.56015967 15.7500166,6.25915967 L15.7500166,6.25915967 L15.7500166,6.29015967 C15.7310166,6.51915967 15.8000166,6.74015967 15.9400166,6.91015967 C16.0800166,7.08015967 16.2900166,7.17915967 16.5100166,7.20015967 C16.9200166,7.18915967 17.2700166,6.86015967 17.3000166,6.43915967 L17.3000166,6.43915967 L17.3000166,6.32015967 C17.3300166,4.91915967 16.4810166,3.65015967 15.1900166,3.16015967 Z"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <!--  -->
+                    <svg
+                      class="track__playIcon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 48 48"
+                    >
+                      <circle
+                        class="play__circle"
+                        class="st0"
+                        cx="23.8"
+                        cy="24.4"
+                        r="24"
+                      />
+                      <g class="play__triangle">
+                        <path
+                          class="st1"
+                          d="M29.9,22.8l-7.6-4.4c-1.3-0.7-2.9,0.2-2.9,1.7v8.8c0,1.5,1.6,2.4,2.9,1.7l7.6-4.4
+      C31.1,25.3,31.1,23.5,29.9,22.8z"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <!-- End of track -->
+                <div class="track">
+                  <div class="track__details">
+                    <img
+                      src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YWxidW0lMjBhcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                      class="album-art"
+                    />
+                    <div class="col">
+                      <h4 class="track__artist">Tiesto</h4>
+                      <p class="track__name">I Will Be There</p>
+                    </div>
+                    <p class="track__listens">
+                      <span><i class="fas fa-headphones-alt"></i></span>
+                      254k
+                    </p>
+                  </div>
+                  <div class="track__actions col-2">
+                    <svg
+                      class="track__heartIcon"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g
+                        id="Iconly/Bold/Heart"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          class="icon"
+                          transform="translate(1.999783, 2.500540)"
+                          fill="#200E32"
+                          fill-rule="nonzero"
+                        >
+                          <path
+                            d="M6.28001656,3.46389584e-14 C6.91001656,0.0191596721 7.52001656,0.129159672 8.11101656,0.330159672 L8.11101656,0.330159672 L8.17001656,0.330159672 C8.21001656,0.349159672 8.24001656,0.370159672 8.26001656,0.389159672 C8.48101656,0.460159672 8.69001656,0.540159672 8.89001656,0.650159672 L8.89001656,0.650159672 L9.27001656,0.820159672 C9.42001656,0.900159672 9.60001656,1.04915967 9.70001656,1.11015967 C9.80001656,1.16915967 9.91001656,1.23015967 10.0000166,1.29915967 C11.1110166,0.450159672 12.4600166,-0.00984032788 13.8500166,3.46389584e-14 C14.4810166,3.46389584e-14 15.1110166,0.0891596721 15.7100166,0.290159672 C19.4010166,1.49015967 20.7310166,5.54015967 19.6200166,9.08015967 C18.9900166,10.8891597 17.9600166,12.5401597 16.6110166,13.8891597 C14.6800166,15.7591597 12.5610166,17.4191597 10.2800166,18.8491597 L10.2800166,18.8491597 L10.0300166,19.0001597 L9.77001656,18.8391597 C7.48101656,17.4191597 5.35001656,15.7591597 3.40101656,13.8791597 C2.06101656,12.5301597 1.03001656,10.8891597 0.390016562,9.08015967 C-0.739983438,5.54015967 0.590016562,1.49015967 4.32101656,0.269159672 C4.61101656,0.169159672 4.91001656,0.0991596721 5.21001656,0.0601596721 L5.21001656,0.0601596721 L5.33001656,0.0601596721 C5.61101656,0.0191596721 5.89001656,3.46389584e-14 6.17001656,3.46389584e-14 L6.17001656,3.46389584e-14 Z M15.1900166,3.16015967 C14.7800166,3.01915967 14.3300166,3.24015967 14.1800166,3.66015967 C14.0400166,4.08015967 14.2600166,4.54015967 14.6800166,4.68915967 C15.3210166,4.92915967 15.7500166,5.56015967 15.7500166,6.25915967 L15.7500166,6.25915967 L15.7500166,6.29015967 C15.7310166,6.51915967 15.8000166,6.74015967 15.9400166,6.91015967 C16.0800166,7.08015967 16.2900166,7.17915967 16.5100166,7.20015967 C16.9200166,7.18915967 17.2700166,6.86015967 17.3000166,6.43915967 L17.3000166,6.43915967 L17.3000166,6.32015967 C17.3300166,4.91915967 16.4810166,3.65015967 15.1900166,3.16015967 Z"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <!--  -->
+                    <svg version="1.1" class="track__pauseIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 20 20">
+                 <g>
+                   <circle class="pauseIcon__circle" class="st0" cx="10" cy="10" r="10"/>
+                   <g class="pauseIcon__bars">
+                     <rect fill="#fff" class="bar" x="10.7" y="7.3" width="1.3" height="5.3"/>
+                     <rect fill="#fff" class="bar" x="8" y="7.3" width="1.3" height="5.3"/>
+                   </g>
+                 </g>
+                 </svg>
+                 
+                  </div>
+                </div>
+                <!-- End of track -->
+                <div class="track">
+                  <div class="track__details">
+                    <img
+                      src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWxidW0lMjBhcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                      class="album-art"
+                    />
+                    <div class="col">
+                      <h4 class="track__artist">Armin van Buuren</h4>
+                      <p class="track__name">I Won't Let You Go</p>
+                    </div>
+                    <p class="track__listens">
+                      <span><i class="fas fa-headphones-alt"></i></span>
+                      354k
+                    </p>
+                  </div>
+                  <div class="track__actions col-2">
+                    <svg
+                      class="track__heartIcon"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g
+                        id="Iconly/Bold/Heart"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          class="icon"
+                          transform="translate(1.999783, 2.500540)"
+                          fill="#200E32"
+                          fill-rule="nonzero"
+                        >
+                          <path
+                            d="M6.28001656,3.46389584e-14 C6.91001656,0.0191596721 7.52001656,0.129159672 8.11101656,0.330159672 L8.11101656,0.330159672 L8.17001656,0.330159672 C8.21001656,0.349159672 8.24001656,0.370159672 8.26001656,0.389159672 C8.48101656,0.460159672 8.69001656,0.540159672 8.89001656,0.650159672 L8.89001656,0.650159672 L9.27001656,0.820159672 C9.42001656,0.900159672 9.60001656,1.04915967 9.70001656,1.11015967 C9.80001656,1.16915967 9.91001656,1.23015967 10.0000166,1.29915967 C11.1110166,0.450159672 12.4600166,-0.00984032788 13.8500166,3.46389584e-14 C14.4810166,3.46389584e-14 15.1110166,0.0891596721 15.7100166,0.290159672 C19.4010166,1.49015967 20.7310166,5.54015967 19.6200166,9.08015967 C18.9900166,10.8891597 17.9600166,12.5401597 16.6110166,13.8891597 C14.6800166,15.7591597 12.5610166,17.4191597 10.2800166,18.8491597 L10.2800166,18.8491597 L10.0300166,19.0001597 L9.77001656,18.8391597 C7.48101656,17.4191597 5.35001656,15.7591597 3.40101656,13.8791597 C2.06101656,12.5301597 1.03001656,10.8891597 0.390016562,9.08015967 C-0.739983438,5.54015967 0.590016562,1.49015967 4.32101656,0.269159672 C4.61101656,0.169159672 4.91001656,0.0991596721 5.21001656,0.0601596721 L5.21001656,0.0601596721 L5.33001656,0.0601596721 C5.61101656,0.0191596721 5.89001656,3.46389584e-14 6.17001656,3.46389584e-14 L6.17001656,3.46389584e-14 Z M15.1900166,3.16015967 C14.7800166,3.01915967 14.3300166,3.24015967 14.1800166,3.66015967 C14.0400166,4.08015967 14.2600166,4.54015967 14.6800166,4.68915967 C15.3210166,4.92915967 15.7500166,5.56015967 15.7500166,6.25915967 L15.7500166,6.25915967 L15.7500166,6.29015967 C15.7310166,6.51915967 15.8000166,6.74015967 15.9400166,6.91015967 C16.0800166,7.08015967 16.2900166,7.17915967 16.5100166,7.20015967 C16.9200166,7.18915967 17.2700166,6.86015967 17.3000166,6.43915967 L17.3000166,6.43915967 L17.3000166,6.32015967 C17.3300166,4.91915967 16.4810166,3.65015967 15.1900166,3.16015967 Z"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <!--  -->
+                    <svg
+                      class="track__playIcon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 48 48"
+                    >
+                      <circle
+                        class="play__circle"
+                        class="st0"
+                        cx="23.8"
+                        cy="24.4"
+                        r="24"
+                      />
+                      <g class="play__triangle">
+                        <path
+                          class="st1"
+                          d="M29.9,22.8l-7.6-4.4c-1.3-0.7-2.9,0.2-2.9,1.7v8.8c0,1.5,1.6,2.4,2.9,1.7l7.6-4.4
+      C31.1,25.3,31.1,23.5,29.9,22.8z"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <!-- End of track -->
+                <div class="track">
+                  <div class="track__details">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      alt=""
+                      class="album-art"
+                    />
+                    <div class="col">
+                      <h4 class="track__artist">Boyonce</h4>
+                      <p class="track__name">You Are My Rock</p>
+                    </div>
+                    <p class="track__listens">
+                      <span><i class="fas fa-headphones-alt"></i></span>
+                      1.2M
+                    </p>
+                  </div>
+                  <div class="track__actions col-2">
+                    <svg
+                      class="track__heartIcon"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g
+                        id="Iconly/Bold/Heart"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          class="icon"
+                          transform="translate(1.999783, 2.500540)"
+                          fill="#200E32"
+                          fill-rule="nonzero"
+                        >
+                          <path
+                            d="M6.28001656,3.46389584e-14 C6.91001656,0.0191596721 7.52001656,0.129159672 8.11101656,0.330159672 L8.11101656,0.330159672 L8.17001656,0.330159672 C8.21001656,0.349159672 8.24001656,0.370159672 8.26001656,0.389159672 C8.48101656,0.460159672 8.69001656,0.540159672 8.89001656,0.650159672 L8.89001656,0.650159672 L9.27001656,0.820159672 C9.42001656,0.900159672 9.60001656,1.04915967 9.70001656,1.11015967 C9.80001656,1.16915967 9.91001656,1.23015967 10.0000166,1.29915967 C11.1110166,0.450159672 12.4600166,-0.00984032788 13.8500166,3.46389584e-14 C14.4810166,3.46389584e-14 15.1110166,0.0891596721 15.7100166,0.290159672 C19.4010166,1.49015967 20.7310166,5.54015967 19.6200166,9.08015967 C18.9900166,10.8891597 17.9600166,12.5401597 16.6110166,13.8891597 C14.6800166,15.7591597 12.5610166,17.4191597 10.2800166,18.8491597 L10.2800166,18.8491597 L10.0300166,19.0001597 L9.77001656,18.8391597 C7.48101656,17.4191597 5.35001656,15.7591597 3.40101656,13.8791597 C2.06101656,12.5301597 1.03001656,10.8891597 0.390016562,9.08015967 C-0.739983438,5.54015967 0.590016562,1.49015967 4.32101656,0.269159672 C4.61101656,0.169159672 4.91001656,0.0991596721 5.21001656,0.0601596721 L5.21001656,0.0601596721 L5.33001656,0.0601596721 C5.61101656,0.0191596721 5.89001656,3.46389584e-14 6.17001656,3.46389584e-14 L6.17001656,3.46389584e-14 Z M15.1900166,3.16015967 C14.7800166,3.01915967 14.3300166,3.24015967 14.1800166,3.66015967 C14.0400166,4.08015967 14.2600166,4.54015967 14.6800166,4.68915967 C15.3210166,4.92915967 15.7500166,5.56015967 15.7500166,6.25915967 L15.7500166,6.25915967 L15.7500166,6.29015967 C15.7310166,6.51915967 15.8000166,6.74015967 15.9400166,6.91015967 C16.0800166,7.08015967 16.2900166,7.17915967 16.5100166,7.20015967 C16.9200166,7.18915967 17.2700166,6.86015967 17.3000166,6.43915967 L17.3000166,6.43915967 L17.3000166,6.32015967 C17.3300166,4.91915967 16.4810166,3.65015967 15.1900166,3.16015967 Z"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <!--  -->
+                    <svg
+                      class="track__playIcon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 48 48"
+                    >
+                      <circle
+                        class="play__circle"
+                        class="st0"
+                        cx="23.8"
+                        cy="24.4"
+                        r="24"
+                      />
+                      <g class="play__triangle">
+                        <path
+                          class="st1"
+                          d="M29.9,22.8l-7.6-4.4c-1.3-0.7-2.9,0.2-2.9,1.7v8.8c0,1.5,1.6,2.4,2.9,1.7l7.6-4.4
+      C31.1,25.3,31.1,23.5,29.9,22.8z"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <!-- End of track -->
+              
+              </div>
+              </div>
+            <!--  -->
+            <div class="recent-artists col-5">
+              <h1>Recent Artists</h1>
+            <div class="recent-artists__album-list">
+              <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" class="recent-artists__album-art">
+              <img src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWxidW0lMjBhcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="recent-artists__album-art">
+              <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWxidW0lMjBhcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="recent-artists__album-art">
+              <img src="https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFsYnVtJTIwYXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="recent-artists__album-art">
+              <img src="https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGFsYnVtJTIwYXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="recent-artists__album-art">
+              <img src="https://images.unsplash.com/photo-1589946601942-68473328aadd?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8NDI1NjYyN3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="recent-artists__album-art">
+            
+            </div>
+            </div>
+          </div>
+          <!--  -->
+        </main>
+        <aside class="col-5 friendsActivity bg-gray">
+          <div class="friendsActivity__header">
+            <h1>Friends Activity</h1>
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+              <title>@1xIconly/Bold/Category</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Iconly/Bold/Category"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Category"
+                  transform="translate(2.000000, 2.000000)"
+                  fill="#200E32"
+                  fill-rule="nonzero"
+                >
+                  <path
+                    d="M5.9199,11.4697 C7.3299,11.4697 8.4599,12.6107 8.4599,14.0307 L8.4599,14.0307 L8.4599,17.4397 C8.4599,18.8497 7.3299,19.9997 5.9199,19.9997 L5.9199,19.9997 L2.5399,19.9997 C1.1399,19.9997 -0.0001,18.8497 -0.0001,17.4397 L-0.0001,17.4397 L-0.0001,14.0307 C-0.0001,12.6107 1.1399,11.4697 2.5399,11.4697 L2.5399,11.4697 Z M17.46,11.4697 C18.86,11.4697 20,12.6107 20,14.0307 L20,14.0307 L20,17.4397 C20,18.8497 18.86,19.9997 17.46,19.9997 L17.46,19.9997 L14.08,19.9997 C12.67,19.9997 11.54,18.8497 11.54,17.4397 L11.54,17.4397 L11.54,14.0307 C11.54,12.6107 12.67,11.4697 14.08,11.4697 L14.08,11.4697 Z M5.9199,-9.32587341e-14 C7.3299,-9.32587341e-14 8.4599,1.15 8.4599,2.561 L8.4599,2.561 L8.4599,5.97 C8.4599,7.39 7.3299,8.53 5.9199,8.53 L5.9199,8.53 L2.5399,8.53 C1.1399,8.53 -0.0001,7.39 -0.0001,5.97 L-0.0001,5.97 L-0.0001,2.561 C-0.0001,1.15 1.1399,-9.32587341e-14 2.5399,-9.32587341e-14 L2.5399,-9.32587341e-14 Z M17.46,-9.32587341e-14 C18.86,-9.32587341e-14 20,1.15 20,2.561 L20,2.561 L20,5.97 C20,7.39 18.86,8.53 17.46,8.53 L17.46,8.53 L14.08,8.53 C12.67,8.53 11.54,7.39 11.54,5.97 L11.54,5.97 L11.54,2.561 C11.54,1.15 12.67,-9.32587341e-14 14.08,-9.32587341e-14 L14.08,-9.32587341e-14 Z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <!--  -->
+          <div class="friend">
+            <div class="friend__avatar circular">
+              <div class="inner bg-gray"></div>
+              <img
+                src="https://randomuser.me/api/portraits/women/90.jpg"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col">
+              <h4 class="friend__name">Amber Holmes</h4>
+              <p class="friend__track">Dutch Kiss - Inner mix</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="friend">
+            <div class="friend__avatar circular">
+              <div class="inner bg-gray"></div>
+              <img
+                src="https://randomuser.me/api/portraits/women/91.jpg"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col">
+              <h4 class="friend__name">Mia Jones</h4>
+              <p class="friend__track">Ash - White Desert</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="friend">
+            <div class="friend__avatar circular">
+              <div class="inner bg-gray"></div>
+              <img
+                src="https://randomuser.me/api/portraits/women/92.jpg"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col">
+              <h4 class="friend__name">Maria Diaz</h4>
+              <p class="friend__track">PK - Parachute</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="friend">
+            <div class="friend__avatar circular no-border">
+              <div class="inner bg-gray"></div>
+              <span class="red-dot"></span>
+              <img
+                src="https://randomuser.me/api/portraits/men/18.jpg"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col">
+              <h4 class="friend__name">Milton Heig</h4>
+              <p class="friend__track">Dutch Kiss - Inner mix</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="friend">
+            <div class="friend__avatar circular no-border">
+              <div class="inner bg-gray"></div>
+              <span class="red-dot"></span>
+              <img
+                src="https://randomuser.me/api/portraits/women/22.jpg"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col">
+              <h4 class="friend__name">Mia Stone</h4>
+              <p class="friend__track">Ash - White Desert</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="friend">
+            <div class="friend__avatar circular no-border">
+              <div class="inner bg-gray"></div>
+              <span class="red-dot"></span>
+              <img
+                src="https://randomuser.me/api/portraits/men/92.jpg"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col">
+              <h4 class="friend__name">Danny Brookes</h4>
+              <p class="friend__track">PK - Parachute</p>
+            </div>
+          </div>
+          <!--  -->
+          <button class="btn-filled">View All</button>
+        </aside>
+      </div>
+
+      <div class="music-player">
+        <div class="container">
+          <div class="music-player__wrapper">
+            <!-- Current Song -->
+            <div class="music-player__song">
+              <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YWxidW0lMjBhcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="music-player__album-art">
+              <div class="col">
+                <h4 class="music-player__track-artist">Tiesto</h4>
+                <p class="music-player__track-name">I Will Be There</p>
+              </div>
+            </div>
+            <!-- Controls -->
+            <div class="music-player__controls">
+              <!-- prev -->
+              <svg class="prevIcon icon" xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36">
+                <g>
+                  <path class="icon-color" d="M33,.68l-18.51,15a3,3,0,0,0,0,4.74L33,35.32A3,3,0,0,0,38,33V3.05A3,3,0,0,0,33,.68Z"/>
+                  <rect class="icon-color" width="10" height="36" rx="3" ry="3"/>
+                </g>
+              </svg>
+              <!-- Pause / play -->
+              <div class="play-pause-wrapper">
+                <!-- play -->
+                <svg version="1.1" id="music-player__playIcon" class="playIcon icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48">
+<circle class="play__circle" class="st0" cx="23.8" cy="24.4" r="24"/>
+<g class="play__triangle">
+	<path class="" d="M29.9,22.8l-7.6-4.4c-1.3-0.7-2.9,0.2-2.9,1.7v8.8c0,1.5,1.6,2.4,2.9,1.7l7.6-4.4
+		C31.1,25.3,31.1,23.5,29.9,22.8z"/>
+</g>
+</svg>
+              <!-- Pause -->
+              <svg version="1.1" class="pauseIcon icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20">
+<g>
+	<circle class="pauseIcon__circle" class="st0" cx="10" cy="10" r="10"/>
+	<g class="pauseIcon__bars">
+		<rect fill="#fff" class="bar" x="10.7" y="7.3" width="1.3" height="5.3"/>
+		<rect fill="#fff" class="bar" x="8" y="7.3" width="1.3" height="5.3"/>
+	</g>
+</g>
+</svg>
+
+
+              </div>
+              <!-- Next -->
+              <svg class="nextIcon icon" xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36">
+                <g>
+                  <path class="icon-color" d="M5,35.32,23.47,20.37a3,3,0,0,0,0-4.74L5,.68A3,3,0,0,0,0,3.05V33A3,3,0,0,0,5,35.32Z"/>
+                  <rect class="icon-color" x="28" width="10" height="36" rx="3" ry="3"/>
+                </g>
+              </svg>
+              
+
+            </div>
+            <div class="music-player__progress">
+              <p id="elapsed-time">2:28</p>
+              <input type="range" name="song-progress" id="song-progress" max="228" min="0" value="148">
+              <p id="remaining-time">3:48</p>
+            </div>
+            <!--  -->
+            <div class="music-player__volume">
+              <div class="volumeIcons">
+                <!-- volume Off -->
+                <!-- volume Low -->
+                <svg class="volLowIcon icon"xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 40 36">
+                  <title>4 Sound</title>
+                  <g class="icon">
+                    <path  d="M21.18.62l-10.46,8A2,2,0,0,1,9.51,9H5a5,5,0,0,0-5,5v8a5,5,0,0,0,5,5H9.51a2,2,0,0,1,1.21.41l10.46,8A3,3,0,0,0,26,33V3A3,3,0,0,0,21.18.62Z"/>
+                    <path  d="M34.78,27.78a2,2,0,0,1-1.41-3.41,9,9,0,0,0,0-12.74,2,2,0,0,1,2.82-2.82,13,13,0,0,1,0,18.38A2,2,0,0,1,34.78,27.78Z"/>
+                  </g>
+                </svg>
+                <!-- volume High -->
+              </div>
+              <input type="range" name="volume-progress" id="volume-progress" class="volume-progress" min="0" max="100" value="60">
+            </div>
+            <ul class="music-player__actions">
+              <li>
+                <svg width="24px" height="24px" class="heartIcon" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Iconly/Bold/Heart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="heart" class="icon" transform="translate(1.999783, 2.500540)" fill-rule="nonzero">
+                          <path d="M6.28001656,3.46389584e-14 C6.91001656,0.0191596721 7.52001656,0.129159672 8.11101656,0.330159672 L8.11101656,0.330159672 L8.17001656,0.330159672 C8.21001656,0.349159672 8.24001656,0.370159672 8.26001656,0.389159672 C8.48101656,0.460159672 8.69001656,0.540159672 8.89001656,0.650159672 L8.89001656,0.650159672 L9.27001656,0.820159672 C9.42001656,0.900159672 9.60001656,1.04915967 9.70001656,1.11015967 C9.80001656,1.16915967 9.91001656,1.23015967 10.0000166,1.29915967 C11.1110166,0.450159672 12.4600166,-0.00984032788 13.8500166,3.46389584e-14 C14.4810166,3.46389584e-14 15.1110166,0.0891596721 15.7100166,0.290159672 C19.4010166,1.49015967 20.7310166,5.54015967 19.6200166,9.08015967 C18.9900166,10.8891597 17.9600166,12.5401597 16.6110166,13.8891597 C14.6800166,15.7591597 12.5610166,17.4191597 10.2800166,18.8491597 L10.2800166,18.8491597 L10.0300166,19.0001597 L9.77001656,18.8391597 C7.48101656,17.4191597 5.35001656,15.7591597 3.40101656,13.8791597 C2.06101656,12.5301597 1.03001656,10.8891597 0.390016562,9.08015967 C-0.739983438,5.54015967 0.590016562,1.49015967 4.32101656,0.269159672 C4.61101656,0.169159672 4.91001656,0.0991596721 5.21001656,0.0601596721 L5.21001656,0.0601596721 L5.33001656,0.0601596721 C5.61101656,0.0191596721 5.89001656,3.46389584e-14 6.17001656,3.46389584e-14 L6.17001656,3.46389584e-14 Z M15.1900166,3.16015967 C14.7800166,3.01915967 14.3300166,3.24015967 14.1800166,3.66015967 C14.0400166,4.08015967 14.2600166,4.54015967 14.6800166,4.68915967 C15.3210166,4.92915967 15.7500166,5.56015967 15.7500166,6.25915967 L15.7500166,6.25915967 L15.7500166,6.29015967 C15.7310166,6.51915967 15.8000166,6.74015967 15.9400166,6.91015967 C16.0800166,7.08015967 16.2900166,7.17915967 16.5100166,7.20015967 C16.9200166,7.18915967 17.2700166,6.86015967 17.3000166,6.43915967 L17.3000166,6.43915967 L17.3000166,6.32015967 C17.3300166,4.91915967 16.4810166,3.65015967 15.1900166,3.16015967 Z"></path>
+                      </g>
+                  </g>
+              </svg>
+              </li>
+              <!--  -->
+              <li>
+                <svg version="1.1" class="sendIcon icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;">
+<path id="send" class="icon" d="M29.3,2.6c-0.3-0.2-0.7-0.3-1-0.2L3,11.7c-0.4,0.1-0.7,0.5-0.7,0.9c0,0.4,0.3,0.8,0.7,0.9l10.2,3.8l10-10
+	c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4l-9.8,9.8l6.6,10.6c0.2,0.3,0.5,0.5,0.8,0.5c0.1,0,0.1,0,0.2,0c0.4-0.1,0.7-0.4,0.8-0.7l6.2-25.2
+	C29.7,3.3,29.6,2.9,29.3,2.6z"/>
+</svg>
+
+              </li>
+              <!--  -->
+              <li>
+                <svg class="icon" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <g id="cast" class="icon">
+                      <path fill="white" d="M55.0699 10H12.6099C10.7728 10.0026 9.01166 10.7336 7.7126 12.0327C6.41355 13.3317 5.68258 15.0929 5.67993 16.93C5.67993 17.4604 5.89065 17.9691 6.26572 18.3442C6.64079 18.7193 7.1495 18.93 7.67993 18.93C8.21036 18.93 8.71907 18.7193 9.09415 18.3442C9.46922 17.9691 9.67993 17.4604 9.67993 16.93C9.67993 16.1529 9.98863 15.4077 10.5381 14.8582C11.0876 14.3087 11.8328 14 12.6099 14H55.0699C55.847 14 56.5923 14.3087 57.1418 14.8582C57.6912 15.4077 57.9999 16.1529 57.9999 16.93V43.39C57.9999 44.1671 57.6912 44.9123 57.1418 45.4618C56.5923 46.0113 55.847 46.32 55.0699 46.32H39.0699C38.5395 46.32 38.0308 46.5307 37.6557 46.9058C37.2806 47.2809 37.0699 47.7896 37.0699 48.32C37.0699 48.8504 37.2806 49.3591 37.6557 49.7342C38.0308 50.1093 38.5395 50.32 39.0699 50.32H55.0699C56.9071 50.3174 58.6682 49.5864 59.9673 48.2873C61.2663 46.9883 61.9973 45.2271 61.9999 43.39V16.93C61.9973 15.0929 61.2663 13.3317 59.9673 12.0327C58.6682 10.7336 56.9071 10.0026 55.0699 10V10Z" fill="black"/>
+                  <path fill="white" d="M7.67993 22C7.1495 22 6.64079 22.2107 6.26572 22.5858C5.89065 22.9609 5.67993 23.4696 5.67993 24C5.67993 24.5304 5.89065 25.0391 6.26572 25.4142C6.64079 25.7893 7.1495 26 7.67993 26C13.5996 26 19.2767 28.3516 23.4626 32.5374C27.6484 36.7232 29.9999 42.4004 29.9999 48.32C29.9999 48.8504 30.2106 49.3591 30.5857 49.7342C30.9608 50.1093 31.4695 50.32 31.9999 50.32C32.5304 50.32 33.0391 50.1093 33.4141 49.7342C33.7892 49.3591 33.9999 48.8504 33.9999 48.32C33.9999 44.8636 33.3191 41.4411 31.9964 38.2478C30.6737 35.0545 28.735 32.153 26.291 29.709C23.8469 27.2649 20.9454 25.3262 17.7522 24.0035C14.5589 22.6808 11.1363 22 7.67993 22V22Z" fill="black"/>
+                  <path fill="white" d="M7.67993 28.8999C7.1495 28.8999 6.64079 29.1106 6.26572 29.4857C5.89065 29.8608 5.67993 30.3695 5.67993 30.8999C5.67993 31.4303 5.89065 31.939 6.26572 32.3141C6.64079 32.6892 7.1495 32.8999 7.67993 32.8999C11.7679 32.9052 15.687 34.5315 18.5777 37.4222C21.4683 40.3128 23.0946 44.2319 23.0999 48.3199C23.0999 48.8503 23.3106 49.359 23.6857 49.7341C24.0608 50.1092 24.5695 50.3199 25.0999 50.3199C25.6304 50.3199 26.1391 50.1092 26.5141 49.7341C26.8892 49.359 27.0999 48.8503 27.0999 48.3199C27.0946 43.171 25.0469 38.2345 21.4061 34.5937C17.7653 30.9529 12.8288 28.9052 7.67993 28.8999V28.8999Z" fill="black"/>
+                  <path fill="white" d="M7.67993 35.77C7.1495 35.77 6.64079 35.9807 6.26572 36.3558C5.89065 36.7309 5.67993 37.2396 5.67993 37.77C5.67993 38.3005 5.89065 38.8092 6.26572 39.1842C6.64079 39.5593 7.1495 39.77 7.67993 39.77C9.94591 39.7753 12.1176 40.6778 13.7199 42.2801C15.3222 43.8824 16.2246 46.054 16.2299 48.32C16.2299 48.8505 16.4406 49.3592 16.8157 49.7342C17.1908 50.1093 17.6995 50.32 18.2299 50.32C18.7604 50.32 19.2691 50.1093 19.6441 49.7342C20.0192 49.3592 20.2299 48.8505 20.2299 48.32C20.2273 44.9924 18.9042 41.8018 16.5512 39.4488C14.1982 37.0957 11.0076 35.7727 7.67993 35.77V35.77Z" fill="black"/>
+                  <path fill="white" d="M7.67993 42.6401C0.179932 42.8701 0.179932 53.7801 7.67993 54.0001C15.1799 53.7701 15.1799 42.8701 7.67993 42.6401Z"/>
+                  </g>
+                  </svg>
+              </li>
+              <!--  -->
+              <li>
+                <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+    <circle fill="white" cx="12" cy="12" r="1"></circle>
+    <circle fill="white" cx="12" cy="5" r="1"></circle>
+    <circle fill="white" cx="12" cy="19" r="1"></circle>
+</svg>
+              </li>
+              <!--  -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

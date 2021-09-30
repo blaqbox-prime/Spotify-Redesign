@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="36" viewBox="0 0 48 36">
+  <defs>
+    <style>
+      .a {
+        fill: #d3d4ed;
+      }
+    </style>
+  </defs>
+  <title>11 Options_2</title>
+  <g>
+    <path class="a" d="M45.5,5.5H24.6a8,8,0,0,0-15.2,0H2.5a2.5,2.5,0,0,0,0,5H9.4a8,8,0,0,0,15.2,0H45.5a2.5,2.5,0,0,0,0-5Z"/>
+    <path class="a" d="M45.5,25.5H38.6a8,8,0,0,0-15.2,0H2.5a2.5,2.5,0,0,0,0,5H23.4a8,8,0,0,0,15.2,0h6.9a2.5,2.5,0,0,0,0-5Z"/>
+  </g>
+</svg>

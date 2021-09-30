@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+
+<svg class="prevIcon icon" xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36">
+  <g>
+    <path class="icon-color" d="M33,.68l-18.51,15a3,3,0,0,0,0,4.74L33,35.32A3,3,0,0,0,38,33V3.05A3,3,0,0,0,33,.68Z"/>
+    <rect class="icon-color" width="10" height="36" rx="3" ry="3"/>
+  </g>
+</svg>
